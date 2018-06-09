@@ -1,0 +1,74 @@
+body {
+    padding-bottom: 80px;
+}
+
+
+footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:70px;
+    width:100%;
+    background:#999;
+    overflow: hidden; 
+ }
+
+#ulfooter{ 
+    list-style: none;
+    position: relative;
+    float: left; 
+    display:block; 
+    left: 45%;
+    margin-top: 20px;
+ }
+ #lets{ 
+    position: relative;
+    /* float: left;  */
+    display: inline;
+    right: 50%; 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    font-weight: bold;
+}
+a:visited {
+    text-decoration: none;
+    color: dimgrey;
+}
+.hide{
+    display: none !important;
+}
+th {
+    font-weight: bold;
+    text-align: center;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.dynamic {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-body {
+    height: 170px !important;
+}
+
+.card-text {
+    font-size: small !important;
+}
+
+.card-footer {
+    height: 50px !important;
+    font-size: smaller !important;
+}
+.closeButtons {
+    display: block;
+    margin: auto;
+}
